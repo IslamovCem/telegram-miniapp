@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Paracetamol",
+    "type": "dori",
+    "price": "12,000 so'm",
+    "image": "https://i.ibb.co/pdHqvv4/paracetamol.jpg",
+    "description": "Bosh og'rig'i va isitmaga qarshi dori.",
+    "age": "12+"
+  },
+  {
+    "id": "2",
+    "name": "Vitamin C",
+    "type": "vitamin",
+    "price": "18,000 so'm",
+    "image": "https://i.ibb.co/4ZvnpyC/vitaminc.jpg",
+    "description": "Immunitetni oshiruvchi vitamin.",
+    "age": "6+"
+  },
+  {
+    "id": "3",
+    "name": "Omega-3",
+    "type": "vitamin",
+    "price": "25,000 so'm",
+    "image": "https://i.ibb.co/7WrkYzD/omega3.jpg",
+    "description": "Yurak faoliyatini yaxshilovchi yog' kislotalari.",
+    "age": "18+"
+  },
+  {
+    "id": "4",
+    "name": "Perfume 'Lily Essence'",
+    "type": "parfyumeriya",
+    "price": "89,000 so'm",
+    "image": "https://i.ibb.co/ck7WQ6B/perfume.jpg",
+    "description": "Yengil va gullarga boy parfyum.",
+    "age": "14+"
+  }
+]
