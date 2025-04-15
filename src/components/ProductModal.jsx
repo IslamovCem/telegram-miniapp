@@ -27,13 +27,19 @@ const ProductModal = ({ product, onClose }) => {
         </p>
 
         <a
-          href={`https://t.me/your_admin_username`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block w-full bg-white text-black text-center py-2 rounded-lg font-semibold hover:bg-gray-200 transition"
-        >
-          Adminga yozish
-        </a>
+  href={`https://t.me/islamovm?text=${encodeURIComponent(`
+🛍 Mahsulot haqida:
+
+${product.name}
+Narxi: ${product.price} so‘m
+${product.available ? 'Mavjud: ✅' : 'Mavjud emas: ❌'}
+`)}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-blue-600 text-white py-2 px-4 rounded block text-center mt-2"
+>
+  ✉️ Adminga yozish
+</a>
       </div>
     </div>
   );
