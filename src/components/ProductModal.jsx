@@ -6,7 +6,7 @@ const ProductModal = ({ product, onClose }) => {
   // ✅ Adminga yozish
   const handleMessageAdmin = () => {
     const message = `
-📦 <b>${product.name}</b>
+📦 ${product.name}
 💰 ${product.price} so‘m
 👶 ${product.age}+ yosh
 
@@ -25,18 +25,18 @@ Menga shu mahsulot haqida ma'lumot kerak.
   // ✅ Do‘stga ulashish
   const handleShareWithFriend = () => {
     const text = `
-🎁 <b>Senga foydali mahsulot topdim:</b>
+🎁 Senga foydali mahsulot topdim:
 
-📦 <b>${product.name}</b>
-💰 <b>${product.price} so‘m</b>
+📦 ${product.name}
+💰 ${product.price} so‘m
 👶 ${product.age}+ yoshdan
 
 📝 ${product.description}
 
-🛒 <b>Xarid qilish:</b> @vitaminDorilar_bot
-👥 <b>Do‘stlaringni ham taklif qil:</b> https://t.me/your_group_link
+🛒 Xarid qilish: @vitaminDorilar_bot
 
-🧬 <i>Hamma kerakli vitamin va dori vositalari endi shu yerda!</i>
+🧬 Hamma kerakli vitamin va dori vositalari endi shu yerda!
+👥 Do‘stlaringni ham taklif qil: https://t.me/your_group_link
     `.trim();
 
     const url = `https://t.me/share/url?url=${encodeURIComponent(product.image)}&text=${encodeURIComponent(text)}`;
