@@ -33,7 +33,7 @@ Menga shu mahsulot haqida ma'lumot kerak.
 
 📝 ${product.description}
 
-🛒 Xarid qilish: @vitaminDorilar_bot
+🌟🌟🌟🌟🌟🌟🌟🌟🌟
 
 🧬 Hamma kerakli vitamin va dori vositalari endi shu yerda!
 
