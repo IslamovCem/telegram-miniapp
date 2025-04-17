@@ -14,10 +14,10 @@ Menga shu mahsulot haqida ma'lumot kerak.
 
     const url = `https://t.me/${adminUsername}?text=${encodeURIComponent(message)}`;
 
-    if (window.Telegram?.WebApp) {
-      window.Telegram.WebApp.openTelegramLink(url);
+    if (window.Telegram?.WebApp?.shareText) {
+      window.Telegram.WebApp.shareText(text);
     } else {
-      window.open(url, '_blank');
+      window.open(`https://t.me/share/url?url=https://t.me/vitaminDorilar_bot?start=from_friend&text=${encodeURIComponent(text)}`);
     }
   };
 
