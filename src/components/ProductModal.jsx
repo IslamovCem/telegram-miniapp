@@ -39,6 +39,12 @@ Menga shu mahsulot haqida ma'lumot kerak.
     `.trim();
 
     window.open(`https://t.me/share/url?text=${encodeURIComponent(text)}`);
+
+    if (window.Telegram?.WebApp?.openTelegramLink) {
+    window.Telegram.WebApp.openTelegramLink(url); // ✅ Telegram ilovasida ochadi
+  } else {
+    window.open(url, '_blank'); // fallback
+  }
   };
 
   return (
