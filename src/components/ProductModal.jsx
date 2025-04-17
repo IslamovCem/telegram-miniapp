@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ProductModal = ({ product, onClose }) => {
-  const adminUsername = 'islamovm'; // Telegram admin username
+  const adminUsername = 'bokijonovanur'; // Telegram admin username
 
   // ✅ Adminga yozish
   const handleMessageAdmin = () => {
