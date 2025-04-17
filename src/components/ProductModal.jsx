@@ -56,11 +56,11 @@ Menga shu mahsulot haqida ma'lumot kerak.
 
         {/* ❌ Yopish */}
         <button
-          className="absolute top-2 right-3 text-white text-xl"
-          onClick={onClose}
-        >
-          ✕
-        </button>
+  onClick={onClose}
+  className="fixed top-[12vh] right-5 z-[100] w-10 h-10 bg-white text-black text-xl font-bold rounded-full shadow-md flex items-center justify-center hover:bg-red-600 hover:text-white transition"
+>
+  ✕
+</button>
 
         {/* 🖼 Rasm */}
         <img
