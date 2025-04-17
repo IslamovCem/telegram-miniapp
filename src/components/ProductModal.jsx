@@ -33,7 +33,7 @@ ${product.available ? 'Mavjud: ✅' : 'Mavjud emas: ❌'}
         <img
           src={product.image}
           alt={product.name}
-          className="w-full h-48 object-cover rounded-lg mb-4"
+          className="w-full h-auto max-h-80 object-contain rounded-lg mb-4"
         />
 
         {/* Nomi */}
