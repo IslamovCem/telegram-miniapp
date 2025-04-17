@@ -36,12 +36,12 @@ Menga shu mahsulot haqida ma'lumot kerak.
 🛒 Xarid qilish: @vitaminDorilar_bot
 
 🧬 Hamma kerakli vitamin va dori vositalari endi shu yerda!
+
 👥 Do‘stlaringni ham taklif qil: https://t.me/your_group_link
     `.trim();
 
-    const url = `https://t.me/share/url?url=${encodeURIComponent(product.image)}&text=${encodeURIComponent(text)}`;
-    window.open(url, '_blank');
-  };
+      window.open(`https://t.me/share/url?text=${encodeURIComponent(message)}`);
+};
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-70 backdrop-blur-sm z-50 flex items-start justify-center px-4 pt-[10vh]">
