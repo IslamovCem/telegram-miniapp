@@ -11,16 +11,16 @@ Narxi: ${product.price} so‘m
 ${product.available ? 'Mavjud: ✅' : 'Mavjud emas: ❌'}
       `);
 
-      const adminUsername = 'islamovm'; // @ belgisisiz yoziladi
+      const adminUsername = 'islamovm';
       const url = `https://t.me/${adminUsername}?text=${message}`;
       window.Telegram.WebApp.openTelegramLink(url);
     }
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-70 backdrop-blur-sm z-50 flex items-center justify-center px-4">
-      <div className="bg-zinc-800 rounded-xl p-5 max-w-md w-full relative shadow-xl">
-        
+    <div className="fixed inset-0 bg-black bg-opacity-70 backdrop-blur-sm z-50 flex items-start justify-center px-4 pt-[10vh]">
+      <div className="bg-zinc-800 rounded-xl p-5 max-w-md w-full relative shadow-xl max-h-[80vh] overflow-y-auto">
+
         {/* Yopish tugmasi */}
         <button
           className="absolute top-2 right-3 text-white text-xl"
@@ -40,7 +40,7 @@ ${product.available ? 'Mavjud: ✅' : 'Mavjud emas: ❌'}
         <h2 className="text-xl font-bold mb-2">{product.name}</h2>
 
         {/* Tavsif */}
-        <p className="text-sm text-gray-300 mb-2">
+        <p className="text-sm text-gray-300 mb-2 whitespace-pre-line">
           <span className="font-semibold">Tavsifi:</span> {product.description}
         </p>
 
