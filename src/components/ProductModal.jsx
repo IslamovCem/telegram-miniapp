@@ -40,7 +40,7 @@ Menga shu mahsulot haqida ma'lumot kerak.
 👥 Do‘stlaringni ham taklif qil: https://t.me/your_group_link
     `.trim();
 
-      window.open(`https://t.me/share/url?text=${encodeURIComponent(message)}`);
+      window.open(`https://t.me/share/url?text=${encodeURIComponent(text)}`);
 };
 
   return (
