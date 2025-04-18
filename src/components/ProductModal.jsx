@@ -37,7 +37,7 @@ Menga shu mahsulot haqida ma'lumot kerak.
 
 🧬 Hamma kerakli vitamin va dori vositalari endi shu yerda!
 
-👥 Do‘stlaringni ham taklif qil: https://t.me/your_group_link
+👥 Do‘stlaringni ham taklif qil: https://t.me/nooramericanmedicine
     `.trim();
 
     // Faqat matn yuborish, browserda rasm preview chiqmasin
